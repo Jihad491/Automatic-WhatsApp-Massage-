@@ -11,7 +11,7 @@ number = tk.Entry(root);
 number.pack(pady=10)
 lab2 =tk.Label(root,text="Enter your massage",font=("Arial",15))
 lab2.pack(pady=10)
-text = tk.Entry(root)
+text = tk.Text(root,height=10,width=30)
 text.pack(pady=10)
 lab3 =tk.Label(root,text=("Enter sending time"),font=("Arial",15))
 lab3.pack(pady=10)
